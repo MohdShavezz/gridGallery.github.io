@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image Gallery</title>
+  <style>
+    .container{
+        background: #463f3f;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(7,120px);
+        grid-auto-flow: dense;
+        padding: 50px;
+    }
+    .dv{
+        border: 2px solid rgba(172, 154, 154, 0.753);
+        border-radius: 2px;
+        overflow: hidden;
+    }
+    .dv img{
+        width: 100%;height: 100%;object-fit: cover;
+        transition: .4s ease-in-out;
+    }
+    .dv img:hover{
+        transform: scale(1.2);
+    }
+    .w2{grid-column: span 2;}
+    .w3{grid-column: span 3;}
+    .w4{grid-column: span 4;}
+    .d2{grid-row: span 2;}
+    .d3{grid-row: span 3;}
+  </style>
+</head>
+<body>
+    
+    
+    
+    
+    
+    <div class="container">
+        <!-- .item$*30{$} -->
+        <div class="dv item1 w2 d2"><img src="https://source.unsplash.com/oR0uERTVyD0" ></div>
+        <div class="dv item2 d2"><img src="https://source.unsplash.com/01_igFr7hd4" ></div>
+        <div class="dv item3 w3"><img src="https://source.unsplash.com/O-8Fmpx7HqQ" ></div>
+        <div class="dv item4"><img src="https://source.unsplash.com/cfQEO_1S0Rs" ></div>
+        <div class="dv item5"><img src="https://source.unsplash.com/FpATXvTxEI4" ></div>
+        <div class="dv item6"><img src="https://source.unsplash.com/uf4oyaimWwg" ></div>
+        <div class="dv item7 d3"><img src="https://source.unsplash.com/EwKXn5CapA4" ></div>
+        <div class="dv item8"><img src="https://source.unsplash.com/rTZW4f02zY8" ></div>
+        <div class="dv item9"><img src="https://source.unsplash.com/cssvEZacHvQ" ></div>
+        
+        <div class="dv item10 w2"><img src="https://source.unsplash.com/vltMzn0jqsA"></div>
+        <div class="dv item11"><img src="https://source.unsplash.com/aQOe0Ri267U"></div>
+        <div class="dv item12 "><img src="https://source.unsplash.com/rMmibFe4czY"></div>
+        <div class="dv item13 d2 w2"><img src="https://source.unsplash.com/-Bq3TeSBRdE"></div>
+        <div class="dv item14"><img src="https://source.unsplash.com/IicyiaPYGGI"></div>
+        <div class="dv item15 "><img src="https://source.unsplash.com/jR4Zf-riEjI"></div>
+        <div class="dv item16 d2"><img src="https://source.unsplash.com/h54G2wyDadc"></div>
+        <div class="dv item17"><img src="https://source.unsplash.com/eOpewngf68w"></div>
+        <div class="dv item19 w2"><img src="https://source.unsplash.com/_aVKjJhFdn0"></div>
+        <div class="dv item20 w2"><img src="https://source.unsplash.com/uaJLLOhY2yU"></div>
+        <div class="dv item18 w2"><img src="https://source.unsplash.com/IJ25m7fXqtk"></div>
+
+    </div>
+
+</body>
+</html>
